@@ -1,0 +1,14 @@
+{
+    "phase1": {
+        "metrics": "Total Stations: 38\nAvg Days Recorded: 2072",
+        "interpretation": "Most stations have significant data coverage (2017-2023). Variations exists due to commissioning dates."
+    },
+    "spatial": "Top Station: Anand Vihar DPCC (260)\nCoeff of Variation: 0.52",
+    "extremes": "Avg Severe Share: 6.3%\nMax Severe Share: 14.5%",
+    "advanced_stats": {
+        "spearman_rank_corr": 0.69,
+        "mean_synchronization": 0.90,
+        "mann_kendall_trend": "No Trend",
+        "mann_kendall_p_value": 0.74
+    }
+}

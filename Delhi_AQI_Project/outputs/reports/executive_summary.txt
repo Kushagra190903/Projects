@@ -1,0 +1,22 @@
+EXECUTIVE SUMMARY: DELHI AQI STRUCTURAL ANALYSIS
+================================================
+
+Overview:
+Analyzed daily AQI data from 2017-2023 across ~40 stations.
+Goal: Characterize spatial, temporal, and network structure of pollution.
+
+Key Findings:
+1. **Spatial Structure**: Distinct hotspots exist with high persistence.
+2. **Temporal Structure**: Seasonality is the dominant driver of variance.
+3. **Network Dynamics**: High city-wide synchronization suggests regional meteorological forcing.
+4. **Long-term**: No clear linear downtrend; inter-annual variability is high.
+
+Generated Metrics:
+{
+  "phase1": {
+    "metrics": "Total Stations: 38\nAvg Days Recorded: 2072",
+    "interpretation": "Most stations have significant data coverage (2017-2023). Variations exists due to commissioning dates."
+  },
+  "spatial": "Top Station: Anand Vihar DPCC (260)\nCoeff of Variation: 0.52",
+  "extremes": "Avg Severe Share: 6.3%\nMax Severe Share: 14.5%"
+}
