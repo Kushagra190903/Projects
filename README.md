@@ -26,7 +26,6 @@ A comprehensive analysis of Delhi air quality data (PM2.5, PM10, etc.) involving
 A machine learning project using an ANN model to predict the compressive strength of concrete. Contains dataset, training/testing code, model files, and visualizations comparing actual vs. predicted values.
 
 ### Stock Market Analytics Project
-(A placeholder title – please update with actual project details if available)
 An analytical study of stock market data implementing various financial indicators and predictive models to assist investment decisions.
 
 ### Delhi AQI Research / Thesis Files
