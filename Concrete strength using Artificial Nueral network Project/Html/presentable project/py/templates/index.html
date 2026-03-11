@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concrete Strength Prediction</title>
+</head>
+<body>
+    <h1>Concrete Strength Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="type_of_aggregates">Type of Aggregates:</label>
+        <select name="type_of_aggregates" id="type_of_aggregates">
+            <option value="Recycled">Recycled</option>
+            <option value="Volcanic">Volcanic</option>
+            <option value="Crushed">Crushed</option>
+            <option value="Rounded">Rounded</option>
+        </select>
+        <br><br>
+
+        <label for="curing_age">Curing Age (days):</label>
+        <input type="number" id="curing_age" name="curing_age" min="0" max="1000" step="0.01" required>
+        <br><br>
+
+        <label for="upv">Ultrasonic Pulse Velocity (UPV) (m/s):</label>
+        <input type="number" id="upv" name="upv" min="1000" max="6000" step="0.01" required>
+        <br><br>
+
+        <label for="er">Electrical Resistivity (ER) (ohm-cm):</label>
+        <input type="number" id="er" name="er" min="1" max="100" step="0.01" required>
+        <br><br>
+
+        <input type="submit" value="Predict Concrete Strength">
+    </form>
+
+    <br>
+    {% if prediction is not none %}
+        <h2>Predicted Concrete Strength: {{ prediction }} Mpa</h2>
+    {% endif %}
+</body>
+</html>
