@@ -107,22 +107,14 @@ We executed nine distinct analytical modules. All outputs are in `outputs/plots/
 
 ---
 
-## 6. Suggested Next Research Steps
+## 6.  Next Research Steps
 1.  **Pollutant Isolation**: Re-run Analysis 9 (Time Series) specifically on PM2.5.
 2.  **Meteorological Normalization**: Use Random Forest or GAMs to regress AQI against wind speed/temperature to isolate the "emissions" signal.
 3.  **Episode Analysis**: Investigate the specific dates of the "Severe" days to categorize them by cause (e.g., crop burning vs Diwali vs stillness).
 
 ---
 
-## 7. Verbal Explanation Script (2 Minutes)
-"Professor, for this project, I conducted a structural analysis of Delhi's air quality using 7 years of daily data from 38 stations. My goal was to move beyond simple averages and understand the *structure* of pollution—how it behaves in space and time.
 
-I built a pipeline that ingested 1.7 million records into a PostgreSQL database and ran nine distinct statistical analyses.
-
-Three major facts emerged:
-First, **Spatial Inequality**. Where you live matters. Hotspots like Anand Vihar are consistently 50-100 AQI points worse than cleaner areas, and these rankings are stable year over year.
-
-Second, **Seasonal Dominance**. The winter peak is massive—3 to 4 times higher than the summer baseline. This is driven by meteorology, specifically inversion layers.
 
 And third, **Synchronization**. I found a city-wide correlation of 0.90. This is extremely high. It means the entire city acts as a single airshed. When pollution spikes, it spikes everywhere simultaneously.
 
