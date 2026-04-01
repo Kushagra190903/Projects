@@ -120,4 +120,3 @@ And third, **Synchronization**. I found a city-wide correlation of 0.90. This is
 
 Finally, I tested for long-term trends using the Mann-Kendall test. The result was 'No Significant Trend' (p=0.74). This suggests that while we see year-to-year variation, there is no statistically significant linear decline in aggregate AQI over this 7-year period, likely because extreme weather masks policy gains.
 
-I have summarized these findings in a polished PowerPoint presentation and a full executive report."
